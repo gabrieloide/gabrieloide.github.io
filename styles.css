@@ -1,6 +1,29 @@
 *
 {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+html
+{
+    font-size: 62.5%;
+    
+}
+.Main-Information
+{
+    font-size: 2rem;
+    position: absolute;
+    margin-left: 12rem;
+}
+.Container
+{
+    display: inline-block;
+    height: 100%;
+    flex-direction: column;
+    position: fixed;
+}
+li
+{
+width: 10rem;
+height: 10rem;
 }
