@@ -11,11 +11,12 @@ html
 }
 .Main-Information
 {   width: 100rem;
-    padding: 15rem;
+    padding-top: 17rem;
+    padding-left: 5rem;
+    padding-right: 43rem;
     font-size: 2rem;
     position: relative;
-    margin-right: 40rem;
-    margin-left: 8.5rem;
+    margin-left: 20rem;
 }
 .Container
 {
@@ -27,37 +28,62 @@ html
     background-color: orange;
     justify-content: center;
 }
+.Navigation-Container a
+{
+    font-size: 3rem;
+    text-decoration: dashed;
+    border-radius: 2px;
+    padding: 5px;
+}
 .navigation1
 {
     background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
 }
 .navigation2
 {
     background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .navigation3
 {
     background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .navigation4
 {
     background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .navigation5
 {
     background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Information
 {
-    padding-top: 7rem;
+    display: flex;
+    padding-left: 15rem;
+    padding-top: 20rem;
     font-size: 2rem;
     margin-left: 12rem;
     margin-right: 5rem;
 }
 .Secciones
 {
-    padding: 3rem;
+    
 }
 .Nombre
 {
