@@ -10,20 +10,65 @@ html
     
 }
 .Main-Information
-{
+{   width: 100rem;
+    padding: 15rem;
     font-size: 2rem;
-    position: absolute;
-    margin-left: 12rem;
+    position: relative;
+    margin-right: 40rem;
+    margin-left: 8.5rem;
 }
 .Container
 {
-    display: inline-block;
+    width: 20rem;
+    display: flex;
     height: 100%;
     flex-direction: column;
     position: fixed;
+    background-color: orange;
+    justify-content: center;
+}
+.navigation1
+{
+    background-color: aqua;
+}
+.navigation2
+{
+    background-color: blue;
+}
+.navigation3
+{
+    background-color: blueviolet;
+}
+.navigation4
+{
+    background-color: yellowgreen;
+}
+.navigation5
+{
+    background-color: yellow;
+}
+
+.Information
+{
+    padding-top: 7rem;
+    font-size: 2rem;
+    margin-left: 12rem;
+    margin-right: 5rem;
+}
+.Secciones
+{
+    padding: 3rem;
+}
+.Nombre
+{
+    font-size: 5rem;
 }
 li
 {
-width: 10rem;
 height: 10rem;
+}
+h1
+{
+    position: relative;
+    text-align: center;
 }
