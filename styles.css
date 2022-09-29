@@ -7,94 +7,273 @@
 html
 {
     font-size: 62.5%;
-    
-}
-.Main-Information
-{   width: 100rem;
-    padding-top: 17rem;
-    padding-left: 5rem;
-    padding-right: 43rem;
-    font-size: 2rem;
-    position: relative;
-    margin-left: 20rem;
-}
-.Container
-{
-    width: 20rem;
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-    position: fixed;
-    background-color: orange;
-    justify-content: center;
-}
-.Navigation-Container a
-{
-    font-size: 3rem;
-    text-decoration: dashed;
-    border-radius: 2px;
-    padding: 5px;
-}
-.navigation1
-{
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-}
-.navigation2
-{
-    background-color: blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.navigation3
-{
-    background-color: blueviolet;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.navigation4
-{
-    background-color: yellowgreen;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.navigation5
-{
-    background-color: yellow;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.Information
-{
-    display: flex;
-    padding-left: 15rem;
-    padding-top: 20rem;
-    font-size: 2rem;
-    margin-left: 12rem;
-    margin-right: 5rem;
-}
-.Secciones
-{
-    
-}
-.Nombre
-{
-    font-size: 5rem;
-}
-li
-{
-height: 10rem;
+    color: white;
+    background-color: #16213e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h1
 {
-    position: relative;
+    font-size: 4rem;
+}
+/*-------------------Header------------------*/
+header
+{
+    background-color: rgb(15, 52, 96);
+}
+header .container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+header a
+{
+    font-size: 3rem;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+header a:hover
+{
+    color: aqua;
+}
+header nav
+{
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+}
+main p
+{
+    font-size: 2.3rem;
+    background-color: #E94560;
+    border-radius: 6rem;
+    padding: 3rem;
+}
+/*----------------------Introduccion------------------*/
+#introduccion
+{
+    height: 90vh;
+    padding: 3rem 3rem;
+}
+.nombre
+{
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 4.5rem;
+    font-size: 4rem;
+}
+.texto
+{
+    margin-top: 0.7rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.2rem;
+
+}
+/* ----------------Informacion-----------------------*/
+.Letra p
+{
+    font-size: 2.5rem;
+}
+.Letra h2
+{
+    font-size: 5rem;
+    text-align: center;
+}
+.Letra
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Sobre-Mi p
+{
+    font-size: 2.2rem;
+}
+.Letra div
+{
+    padding: 10rem 1rem;
+}
+#informacion p
+{
+    background-color: #E94560;
+    border-radius: 6rem;
+    padding: 2.5rem;
+}
+#informacion h2
+{
+    padding: 2.5rem;
+}
+.Sobre-Mi img
+{
+    margin-top: 7rem;
+    width: 90%;
+    border-radius: 50%;
+}
+.Proyectos img
+{
+    padding: 4rem 1rem;
+    width: 100%;
+}
+/*----------------------------------------------Email Form----------------------------------------------------------------------*/
+form
+{
+    display: flex;
+    justify-content: center;
+}
+button
+{   margin-top: 6rem;
+    font-size: 3rem;
+    display: flex;
+    padding: 1.5rem 2rem;
+    background-color: #E94560;
+}
+div .email_form
+{
+    display: flex;
+    flex-direction: column;
+}
+label
+{
+    font-size: 3rem;
+    padding-top: 2rem;
+}
+
+/*Pantalla mayor a 720px*/
+@media(min-width: 720px)
+{
+    /*header*/
+    header .container 
+    {
+        justify-content: end;
+        flex-direction: row;
+    }
+    header nav
+    {
+        flex-direction: row;
+        justify-content: end;
+        padding-bottom: 1rem;
+        padding-right: 3rem;
+    }
+    header a
+    {
+        padding-right: 2rem;
+    }
+
+    /* introduccion*/
+    
+    #introduccion
+    {
+        padding-top: 10rem;
+        padding-right: 10rem;
+        padding-bottom: 88rem;
+    }
+    .nombre
+    {
+        display:block;
+    }
+    .nombre span
+    {
+        text-align: center;
+        font-size: 6rem;
+    }
+    div .caja_nombre
+    {
+        padding-right: 15rem;
+    }
+    div .caja_texto
+    {
+        padding-top: 6.5rem;
+        
+    }
+    .texto
+    {
+        font-size: 3rem;
+    }
+    .Letra p
+    {
+        font-size: 3rem;
+    }
+    .container_P p
+    {
+        padding-right: 30rem;
+    }
+    /* Informacion */
+    .Letra div
+    {
+        padding-top: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    div .Sobre-Mi
+    {
+        padding-right: 25rem;
+    }
+    .Sobre-Mi p
+    {
+        font-size: 2.5rem;
+    }
+    div .Proyectos
+    {
+        padding-left: 30rem;
+    }
+    div .CV_D
+    {
+        padding-right: 25rem;
+    }
+    
+}   
+@media(min-width: 1024px)
+{
+    /*-------------------Header---------------------*/
+    header nav
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: end;
+        padding-right: 0.5rem;
+        padding-top: 1.3rem;    
+    }
+    /*----------Introduccion-----------*/
+    #introduccion
+    {
+        display: flex;
+        align-items: center;
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+    }
+    div .caja_nombre
+    {
+        padding-right: 45rem;
+    }
+    div .texto
+    {
+        font-size: 3rem;
+    }
+    /*----------------------Informacion---------------------*/
+    div .Sobre-Mi
+    {
+        padding-top: 27rem;
+        padding-right: 50rem;
+    }
+    div .Proyectos
+    {
+        padding-left: 50rem;
+    }
+    div .CV_D
+    {
+        padding-right: 59rem;
+    }
+    div .contacto
+    {
+        padding: 0rem 30rem;
+    }
 }
