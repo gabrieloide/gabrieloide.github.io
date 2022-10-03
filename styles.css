@@ -15,6 +15,10 @@ h1
 {
     font-size: 4rem;
 }
+h3
+{
+    font-size: 3rem;
+}
 /*-------------------Header------------------*/
 header
 {
@@ -28,7 +32,7 @@ header .container
 }
 header a
 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-decoration: none;
     padding: 0.5rem;
 }
@@ -42,11 +46,11 @@ header nav
     flex-direction: column;
     text-align: center;
     padding-bottom: 0.5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 main p
 {
-    font-size: 2.3rem;
+    font-size: 1.8rem;
     background-color: #E94560;
     border-radius: 6rem;
     padding: 3rem;
@@ -62,25 +66,23 @@ main p
     justify-content: center;
     text-align: center;
     padding-bottom: 4.5rem;
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 .texto
 {
     margin-top: 0.7rem;
-    display: flex;
-    justify-content: center;
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 1.7rem;
 
 }
 /* ----------------Informacion-----------------------*/
 .Letra p
 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 .Letra h2
 {
-    font-size: 5rem;
+    font-size: 4.5rem;
     text-align: center;
 }
 .Letra
@@ -93,21 +95,34 @@ main p
 }
 .Sobre-Mi p
 {
-    font-size: 2.2rem;
+    font-size: 1.7rem;
 }
 .Letra div
 {
-    padding: 10rem 1rem;
+    padding: 6rem 1rem;
+}
+#informacion
+{
+    padding-top: 13rem;
+
+}
+#informacion ul
+{
+    border-radius: 3rem;
+    background-color: #E94560;
+}
+#informacion li
+{
+    font-size: 2.3rem;
 }
 #informacion p
 {
-    background-color: #E94560;
-    border-radius: 6rem;
     padding: 2.5rem;
 }
-#informacion h2
+.Letra p
 {
-    padding: 2.5rem;
+    background-color: #E94560;
+    border-radius: 6rem;
 }
 .Sobre-Mi img
 {
@@ -117,8 +132,30 @@ main p
 }
 .Proyectos img
 {
-    padding: 4rem 1rem;
-    width: 100%;
+    padding: 1rem 0.01rem;
+    width: 70%;
+}
+.skills
+{
+    display: flex;
+    flex-direction: column;
+}
+.skills div
+{
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
+.skills h3
+{
+    padding-bottom: 1.3rem;
+}
+.program_skills ul
+{
+    padding: 3rem 3rem;
+}
+.programming_skills ul
+{
+    padding: 2rem 3rem;
 }
 /*----------------------------------------------Email Form----------------------------------------------------------------------*/
 form
@@ -140,11 +177,12 @@ div .email_form
 }
 label
 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding-top: 2rem;
 }
 
-/*Pantalla mayor a 720px*/
+
+/*---------------------------------------Pantalla mayor a 720px---------------------------------------*/
 @media(min-width: 720px)
 {
     /*header*/
@@ -176,11 +214,12 @@ label
     .nombre
     {
         display:block;
+        font-size: 3rem;
     }
     .nombre span
     {
         text-align: center;
-        font-size: 6rem;
+        font-size: 5rem;
     }
     div .caja_nombre
     {
@@ -216,9 +255,26 @@ label
     {
         padding-right: 25rem;
     }
+    .Letra #Sobremi h2
+    {
+        padding-right: 25rem;
+    }
+    .Letra #Proyectos h2
+    {
+        padding-left: 30rem;
+    }
+    .Letra #CV h2
+    {
+        padding-right: 24rem;
+    }
+    #SobreMi h2
+    {
+        color: aqua;
+        padding-right: 25rem;
+    }
     .Sobre-Mi p
     {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
     div .Proyectos
     {
@@ -227,6 +283,34 @@ label
     div .CV_D
     {
         padding-right: 25rem;
+    }
+    #informacion li
+    {
+        font-size: 2.6rem;
+    }
+    div .skills
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .contacto p
+    {
+        margin: 8rem;
+    }
+    div .email_form
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .inputContainer
+    {
+        WIDTH: 40rem; 
+        HEIGHT: 2.9rem;
+    }
+    .inputButton
+    {
+        width: 15rem;
     }
     
 }   
@@ -241,7 +325,7 @@ label
         justify-content: end;
         padding-right: 0.5rem;
         padding-top: 1.3rem;    
-    }
+    } 
     /*----------Introduccion-----------*/
     #introduccion
     {
