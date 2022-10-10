@@ -19,6 +19,10 @@ h3
 {
     font-size: 3rem;
 }
+a
+{
+    color: white;
+}
 /*-------------------Header------------------*/
 header
 {
@@ -50,8 +54,6 @@ header nav
 }
 main p
 {
-    font-size: 1.8rem;
-    background-color: #E94560;
     border-radius: 6rem;
     padding: 3rem;
 }
@@ -59,21 +61,25 @@ main p
 #introduccion
 {
     height: 90vh;
-    padding: 3rem 3rem;
+    padding: 5rem 0.5rem;
 }
 .nombre
 {
     justify-content: center;
-    text-align: center;
     padding-bottom: 4.5rem;
-    font-size: 3.5rem;
+    font-size: 3.2rem;
 }
 .texto
 {
     margin-top: 0.7rem;
-    text-align: center;
-    font-size: 1.7rem;
+    font-size: 2.3rem;
 
+}
+.nombre span
+{
+    text-align: center;
+    font-size: 3.8rem;
+    color: #E94560;
 }
 /* ----------------Informacion-----------------------*/
 .Letra p
@@ -135,6 +141,25 @@ main p
     padding: 1rem 0.01rem;
     width: 70%;
 }
+.games_img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.games_img img
+{
+    padding-top: 2rem;
+}
+.patientAnimals_img
+{
+    width: 89%;
+}
+.lightsOn_img
+{
+    width: 100%;
+}
 .skills
 {
     display: flex;
@@ -164,7 +189,7 @@ form
     justify-content: center;
 }
 button
-{   margin-top: 6rem;
+{
     font-size: 3rem;
     display: flex;
     padding: 1.5rem 2rem;
@@ -208,27 +233,22 @@ label
     #introduccion
     {
         padding-top: 10rem;
-        padding-right: 10rem;
+        padding-right: 13rem;
         padding-bottom: 88rem;
     }
     .nombre
     {
         display:block;
-        font-size: 3rem;
+        font-size: 5rem;
     }
     .nombre span
     {
         text-align: center;
-        font-size: 5rem;
+        font-size: 8rem;
     }
     div .caja_nombre
     {
-        padding-right: 15rem;
-    }
-    div .caja_texto
-    {
-        padding-top: 6.5rem;
-        
+        padding-right: 23rem;
     }
     .texto
     {
@@ -242,7 +262,7 @@ label
     {
         padding-right: 30rem;
     }
-    /* Informacion */
+    /*-------------------------------------Informacion--------------------------------------*/
     .Letra div
     {
         padding-top: 3rem;
@@ -251,34 +271,30 @@ label
         justify-content: center;
         flex-direction: column;
     }
-    div .Sobre-Mi
-    {
-        padding-right: 25rem;
-    }
-    .Letra #Sobremi h2
-    {
-        padding-right: 25rem;
-    }
-    .Letra #Proyectos h2
-    {
-        padding-left: 30rem;
-    }
     .Letra #CV h2
     {
         padding-right: 24rem;
     }
-    #SobreMi h2
+    div .Sobre-Mi 
     {
-        color: aqua;
-        padding-right: 25rem;
+        display: flex;
+        flex-direction: initial;
+
+    }
+    div .Proyectos
+    {
+        display: flex;
+        flex-direction: row-reverse;
     }
     .Sobre-Mi p
     {
         font-size: 2.3rem;
+        margin-right: 4rem;
     }
-    div .Proyectos
+    .Sobre-Mi img
     {
-        padding-left: 30rem;
+        width: 45%;
+        border-radius: 50%;
     }
     div .CV_D
     {
@@ -314,6 +330,7 @@ label
     }
     
 }   
+/*-------------------------------------------1024------------------------------------*/
 @media(min-width: 1024px)
 {
     /*-------------------Header---------------------*/
@@ -343,18 +360,31 @@ label
         font-size: 3rem;
     }
     /*----------------------Informacion---------------------*/
-    div .Sobre-Mi
+    div .Sobre-Mi p 
     {
-        padding-top: 27rem;
-        padding-right: 50rem;
+        margin-right: 11rem;
+        margin-left: 4rem;
     }
-    div .Proyectos
+    .Sobre-Mi img
     {
-        padding-left: 50rem;
+        width: 35%;
+        border-radius: 50%;
+        margin-bottom: 7rem;
+    }
+    div .Proyectos p
+    {
+        margin-left: 7rem;
+        margin-right: 7rem;
+    }
+    .Proyectos img
+    {
+        width: 70rem;   
+        border-radius: 50%;
+        margin-bottom: 7rem;
     }
     div .CV_D
     {
-        padding-right: 59rem;
+
     }
     div .contacto
     {
