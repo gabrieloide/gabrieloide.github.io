@@ -182,6 +182,18 @@ main p
 {
     padding: 2rem 3rem;
 }
+.CV_D
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.CV_D img
+{
+    width: 50%;
+    border-radius: 50%;
+    margin: 3.3rem 0rem;
+}
 /*----------------------------------------------Email Form----------------------------------------------------------------------*/
 form
 {
@@ -267,9 +279,17 @@ label
     {
         padding-top: 3rem;
     }
-    .Letra #CV h2
+    .Letra #Sobremi .Sobre-Mi
     {
-        padding-right: 24rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Letra #Proyectos .Proyectos
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     div .Sobre-Mi 
     {
@@ -292,10 +312,6 @@ label
         border-radius: 50%;
         margin-bottom: 5rem;
     }
-    div .CV_D
-    {
-        padding-right: 25rem;
-    }
     #informacion li
     {
         font-size: 2.6rem;
@@ -306,6 +322,10 @@ label
         justify-content: center;
         align-items: center;
         flex-direction: row;
+    }
+    .Proyectos img
+    {
+        width: 100%;  
     }
     .games_img img
     {
@@ -323,6 +343,17 @@ label
     {
         display: flex;
         flex-direction: row;
+    }
+    .CV_D
+    {
+        flex-direction: initial;
+        display: flex;
+        align-items: center;
+    }
+    .CV_D img
+    {
+        margin-left: 5rem;
+        width: 30%;
     }
     .contacto p
     {
