@@ -7,8 +7,8 @@
 html
 {
     font-size: 62.5%;
-    color: white;
-    background-color: #16213e;
+    color: #423a22;
+    background-color: #edf3f3;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h1
@@ -21,12 +21,12 @@ h3
 }
 a
 {
-    color: white;
+    color: #423a22;
 }
 /*-------------------Header------------------*/
 header
 {
-    background-color: rgb(15, 52, 96);
+    background-color: #6970cd;
 }
 header .container
 {
@@ -36,13 +36,14 @@ header .container
 }
 header a
 {
+    color: white;
     font-size: 2.5rem;
     text-decoration: none;
     padding: 0.5rem;
 }
 header a:hover
 {
-    color: aqua;
+    color: #f3d5ed;
 }
 header nav
 {
@@ -79,11 +80,12 @@ main p
 {
     text-align: center;
     font-size: 3.8rem;
-    color: #E94560;
+    color: #423a22;
 }
 /* ----------------Informacion-----------------------*/
 .Letra p
 {
+    color: white;
     font-size: 2rem;
 }
 .Letra h2
@@ -109,17 +111,18 @@ main p
 }
 #informacion
 {
-    padding-top: 13rem;
+    padding-top: 2rem;
 
 }
 #informacion ul
 {
     border-radius: 3rem;
-    background-color: #E94560;
+    background-color: #6970cd;
 }
 #informacion li
 {
     font-size: 2.3rem;
+    color: white;
 }
 #informacion p
 {
@@ -127,7 +130,7 @@ main p
 }
 .Letra p
 {
-    background-color: #E94560;
+    background-color: #6970cd;
     border-radius: 6rem;
 }
 .Sobre-Mi img
@@ -152,13 +155,13 @@ main p
 {
     padding-top: 2rem;
 }
-.patientAnimals_img
+.game1_img
 {
     width: 89%;
 }
-.lightsOn_img
+.game2_img
 {
-    width: 100%;
+    width: 89%;
 }
 .skills
 {
@@ -200,12 +203,20 @@ form
     display: flex;
     justify-content: center;
 }
+textarea
+{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
 button
 {
     font-size: 3rem;
+    border: none;
     display: flex;
     padding: 1.5rem 2rem;
-    background-color: #E94560;
+    color: white;
+    background-color: #6970cd;
 }
 div .email_form
 {
@@ -216,6 +227,22 @@ label
 {
     font-size: 2.5rem;
     padding-top: 2rem;
+}
+input
+{
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 1.3rem;
+    box-shadow: 1px 1px 1px #999;
+}
+.inputButton
+{
+    height: 4rem;
+    text-align: center;
+    font-size: 1.6rem;
+    color: white;
+    background-color: #6970cd;
 }
 
 
@@ -301,6 +328,10 @@ label
         display: flex;
         flex-direction: row-reverse;
     }
+    button
+    {
+        padding: 2.5rem 3rem;
+    }
     .Sobre-Mi p
     {
         font-size: 2.7rem;
@@ -331,13 +362,13 @@ label
     {
         padding: 3rem;
     }
-    .patientAnimals_img
+    .game1_img
     {
         width: 48%;
     }
-    .lightsOn_img
+    .game2_img
     {
-        width: 55%;
+        width: 48%;
     }
     div .skills
     {
@@ -358,6 +389,16 @@ label
     .contacto p
     {
         margin: 8rem;
+    }
+    /*---------------------- TextArea---------------------*/
+    textarea
+    {
+        padding: 1rem;
+        line-height: 1.5;
+        width: 50rem;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        box-shadow: 1px 1px 1px #999;
     }
     div .email_form
     {
@@ -404,6 +445,7 @@ label
     div .texto
     {
         font-size: 3rem;
+        padding-right: 30rem;
     }
     /*----------------------Informacion---------------------*/
     div .Sobre-Mi p 
