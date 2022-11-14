@@ -24,7 +24,7 @@
                 <p class="nombre"> Hi!, I'm Gabriel, a <span>Gameplay Programmer.</span></p>
             </div>
             <div>
-                <img src="Img/ProfileWeb.png" alt="Error_ImageNotFound">
+                <img class="me_image" src="Img/ProfileWeb.png" alt="ImageOfMe">
             </div>
             <div class="caja_texto">
                 <p class="texto">A Gameplay Programmer who likes make and play games, 
@@ -35,17 +35,21 @@
 
     <div id="informacion" class="Letra">
         <div id="Sobremi">
-            <h2>About me</h2>
-            <div class="Sobre-Mi">
-                <P>Hi! I’m Gabriel, I was born in venezuela and I’m 20, I’m a videogames lover, 
-                    since I was child videogames was my hobbie, for its mechanics, history, or aestetic. 
-                    Recently, I have been looking to how to make videogames, 
-                    so I started with it, then I found the engine called Unity.
-                </P>
-                <img src="https://pbs.twimg.com/profile_images/1511151616539439105/vSLvFX9v_400x400.jpg" alt="profile_images">
+            <div class="container">
+                <h2>About me</h2>
+                <div class="Sobre-Mi">
+                    <P>Hi! I’m Gabriel, I was born in venezuela and I’m 20, I’m a videogames lover, 
+                        since I was child videogames was my hobbie, for its mechanics, history, or aestetic. 
+                        Recently, I have been looking to how to make videogames, 
+                        so I started with it, then I found the engine called Unity.
+                    </P>
+                    <img src="https://pbs.twimg.com/profile_images/1511151616539439105/vSLvFX9v_400x400.jpg" alt="profile_images">
+                </div>
             </div>
         </div>
-            <div id="Proyectos">
+
+        <div id="Proyectos">
+           <div class="container">
                 <h2>Projects</h2>
             <div class="Proyectos">
                     <p>Here you can access to all my game that I made, either in courses or projects that I want to do, 
@@ -54,65 +58,76 @@
             </div>
             <h3>Games</h3>
            <div class="games_img">
-                    <img class="game1_img" src="Games/PortadaFinalAhorasi.png" alt="PatientAnimals">
-                    <img class="game2_img" src="Games/PortadaProvicional.png" alt="LighstOn">
+                    <img class="game1_img" src="Games/PortadaFinalAhorasi.png" alt="Game1">
+                    <img class="game2_img" src="Games/PortadaProvicional.png" alt="Game2">
             </div>
                 
                 <form action="https://virterex.itch.io">
                     <button>Go 🎮</button>
                 </form>
             </div>
+        </div>    
+
             <div id="Skills">
-                <h2>Skills</h2>
-                <div class="skills">
-                    
-                    <div class="programming_skills">
-                        <h3>Programming skills</h3>
-                        <ul>
-                            <li>C#</li>
-                            <li>HTML(Basic)</li>
-                            <li>CSS(Basic)</li>
-                            <li>Git</li>
-                        </ul>
-                    </div>
-                    <div class="program_skills">
-                        <h3>Program Skills</h3>
-                        <ul>
-                            <li>Unity</li>
-                            <li>Photoshop</li>
-                            <li>Aseprite</li>
-                            <li>Reaper</li>
-                        </ul>
+                <div class="container">
+                    <h2>Skills</h2>
+                    <div class="skills">
+                        
+                        <div class="skills1">
+                            <h3>Programming skills</h3>
+                            <ul>
+                                <li>C#</li>
+                                <li>HTML(Basic)</li>
+                                <li>CSS(Basic)</li>
+                                <li>Git</li>
+                            </ul>
+                        </div>
+                        <div class="skills2">
+                            <h3>Program Skills</h3>
+                            <ul>
+                                <li>Unity</li>
+                                <li>Photoshop</li>
+                                <li>Aseprite</li>
+                                <li>Reaper</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
+
         <div id="CV">
-            <h2>CV</h2>
-            <div class="CV_D">
-                <p>Here is my CV where you can see more information about me.</p>
-                <img src="CV/CVImage.png" alt="CV">
-            </div>
+            <div class="container">
+                <h2>CV</h2>
+                <div class="CV_D">
+                    <p>Here is my CV where you can see more information about me.</p>
+                    <img src="CV/CVImage.png" alt="CV">
+                </div>
                 <form action="">
                     <button>Download CV 📃</button>
                 </form>
+            </div>
         </div>
+
         <div id="Contacto">
-            <div class="contacto">
-                <h2>Contact</h2>
-                <p>If you are interested to contact with me, fill out this form.</p>
-                <div>
-                    <form action="" method="post" class="email_form">
-                        <label for="nombre">Name:</label> 
-                        <input class="inputContainer" type="text" name="nombre" id="nombre" >
-                        <br>
-                        <label for="e-mail">E-mail:</label>
-                        <input class="inputContainer" type="email" name="email" id="email">
-                        <br>
-                        <label for="mensaje">Message:</label>
-                        <textarea name="mensaje" id="mensaje" cols="20" rows="8"></textarea>
-                        <br>
-                        <input class="inputButton"type="submit" name="enviar" id="enviar">
-                     </form>
+            <div class="container">
+
+                <div class="contacto">
+                    <h2>Contact</h2>
+                    <p>If you are interested to contact with me, fill out this form.</p>
+                    <div>
+                        <form action="" method="post" class="email_form">
+                            <label for="nombre">Name:</label> 
+                            <input class="inputContainer" type="text" name="nombre" id="nombre" >
+                            <br>
+                            <label for="e-mail">E-mail:</label>
+                            <input class="inputContainer" type="email" name="email" id="email">
+                            <br>
+                            <label for="mensaje">Message:</label>
+                            <textarea name="mensaje" id="mensaje" cols="20" rows="8"></textarea>
+                            <br>
+                            <input class="inputButton"type="submit" name="enviar" id="enviar">
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>

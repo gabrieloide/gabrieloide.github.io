@@ -72,15 +72,19 @@ main p
 }
 .texto
 {
-    margin-top: 0.7rem;
     font-size: 2.3rem;
-
 }
 .nombre span
 {
     text-align: center;
     font-size: 3.8rem;
     color: #423a22;
+}
+.me_image
+{
+     width: 85%;
+     margin: 1rem 3rem;
+    border-radius: 50%;   
 }
 /* ----------------Informacion-----------------------*/
 .Letra p
@@ -105,14 +109,13 @@ main p
 {
     font-size: 1.7rem;
 }
-.Letra div
+.Letra div .container
 {
-    padding: 6rem 1rem;
+    padding: 20rem 1rem;
 }
 #informacion
 {
-    padding-top: 2rem;
-
+    margin-top: 10rem;
 }
 #informacion ul
 {
@@ -170,18 +173,17 @@ main p
 }
 .skills div
 {
-    padding-top: 2rem;
-    padding-bottom: 0.5rem;
+    padding: 2rem 3rem;
 }
 .skills h3
 {
     padding-bottom: 1.3rem;
 }
-.program_skills ul
+.skills2 ul
 {
     padding: 3rem 3rem;
 }
-.programming_skills ul
+.skills1 ul
 {
     padding: 2rem 3rem;
 }
@@ -214,6 +216,7 @@ button
     font-size: 3rem;
     border: none;
     display: flex;
+    margin-top: 3rem;
     padding: 1.5rem 2rem;
     color: white;
     background-color: #6970cd;
@@ -273,7 +276,6 @@ input
     {
         padding-top: 10rem;
         padding-right: 13rem;
-        padding-bottom: 88rem;
     }
     .nombre
     {
@@ -292,6 +294,14 @@ input
     .texto
     {
         font-size: 3rem;
+    }
+    .me_image
+    {
+        width: 35%;
+        position: absolute;
+        margin-left: 45rem;
+        bottom: 25rem;
+        border-radius: 50%;   
     }
     .Letra p
     {
@@ -341,7 +351,7 @@ input
     {
         width: 45%;
         border-radius: 50%;
-        margin-bottom: 5rem;
+        bottom: 5rem;
     }
     #informacion li
     {
@@ -435,7 +445,6 @@ input
     {
         display: flex;
         align-items: center;
-        padding-top: 5rem;
         padding-bottom: 3rem;
     }
     div .caja_nombre
