@@ -55,14 +55,18 @@ header nav
 }
 main p
 {
-    border-radius: 6rem;
     padding: 3rem;
 }
 /*----------------------Introduccion------------------*/
 #introduccion
 {
     height: 90vh;
-    padding: 5rem 0.5rem;
+    padding-top: 5rem;
+}
+.caja_nombre
+{
+    display: flex;
+    flex-direction: column;
 }
 .nombre
 {
@@ -82,8 +86,8 @@ main p
 }
 .me_image
 {
-     width: 85%;
-     margin: 1rem 3rem;
+    width: 70%;
+    margin: 1rem 3rem;
     border-radius: 50%;   
 }
 /* ----------------Informacion-----------------------*/
@@ -158,14 +162,11 @@ main p
 {
     padding-top: 2rem;
 }
-.game1_img
+.game
 {
-    width: 89%;
+    width: 80%;
 }
-.game2_img
-{
-    width: 89%;
-}
+
 .skills
 {
     display: flex;
@@ -271,11 +272,9 @@ input
     }
 
     /* introduccion*/
-    
-    #introduccion
+    #introduccion 
     {
         padding-top: 10rem;
-        padding-right: 13rem;
     }
     .nombre
     {
@@ -289,38 +288,37 @@ input
     }
     div .caja_nombre
     {
-        padding-right: 23rem;
+        flex-direction: initial;
     }
     .texto
     {
-        font-size: 3rem;
+        font-size: 3.6rem;
+    }
+    main p
+    {
+       padding: 0rem 0.5rem 0rem 3rem;
     }
     .me_image
     {
         width: 35%;
-        position: absolute;
-        margin-left: 45rem;
-        bottom: 25rem;
-        border-radius: 50%;   
+        border-radius: 50%;
+        margin: 0rem 3rem 3rem 0rem;
     }
     .Letra p
     {
         font-size: 3rem;
     }
-    .container_P p
-    {
-        padding-right: 30rem;
-    }
+
     /*-------------------------------------Informacion--------------------------------------*/
-    .Letra div
-    {
-        padding-top: 3rem;
-    }
     .Letra #Sobremi .Sobre-Mi
     {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .Letra div .container
+    {
+        padding: 15rem 1rem;
     }
     .Letra #Proyectos .Proyectos
     {
@@ -364,19 +362,11 @@ input
         align-items: center;
         flex-direction: row;
     }
-    .Proyectos img
-    {
-        width: 100%;  
-    }
     .games_img img
     {
         padding: 3rem;
     }
-    .game1_img
-    {
-        width: 48%;
-    }
-    .game2_img
+    .game
     {
         width: 48%;
     }
@@ -447,14 +437,21 @@ input
         align-items: center;
         padding-bottom: 3rem;
     }
-    div .caja_nombre
+    .nombre
     {
-        padding-right: 45rem;
+        padding-left: 15rem;
+        padding-top: 5rem;
     }
     div .texto
     {
         font-size: 3rem;
-        padding-right: 30rem;
+        padding-right: 60rem;
+    }
+    .me_image
+    {
+        width: 40%;
+        margin-left: 6rem;
+        border-radius: 50%;   
     }
     /*----------------------Informacion---------------------*/
     div .Sobre-Mi p 
@@ -476,12 +473,6 @@ input
     .Proyectos img
     {
         width: 70rem;   
-        border-radius: 50%;
-        margin-bottom: 7rem;
-    }
-    div .CV_D
-    {
-
     }
     div .contacto
     {
