@@ -366,10 +366,6 @@ input
     {
         padding: 3rem;
     }
-    .game
-    {
-        width: 48%;
-    }
     div .skills
     {
         display: flex;
@@ -461,7 +457,7 @@ input
     }
     .Sobre-Mi img
     {
-        width: 35%;
+        width: 25%;
         border-radius: 50%;
         margin-bottom: 7rem;
     }
@@ -473,6 +469,10 @@ input
     .Proyectos img
     {
         width: 70rem;   
+    }
+    .game
+    {
+        width: 100%;
     }
     div .contacto
     {
