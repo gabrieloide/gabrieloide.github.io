@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: #423a22;
+    ;
 }
 html
 {
@@ -212,6 +212,7 @@ textarea
     border-radius: 5px;
     border: 1px solid #ccc;
     box-shadow: 1px 1px 1px #999;
+    resize: none;
 }
 button
 {
@@ -243,11 +244,22 @@ input
 }
 .inputButton
 {
-    height: 4rem;
+    height: 3rem;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     color: white;
     background-color: #6970cd;
+    padding: 0;
+}
+
+.inputButton:hover {
+    background: #4e58dd;
+    cursor: pointer;
+}
+
+.inputButton:active{
+    background: #3b45dd;
+    cursor: pointer;
 }
 
 
