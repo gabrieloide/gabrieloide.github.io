@@ -461,6 +461,7 @@ footer a{
         display: flex;
         justify-content: center;
         align-items: center;
+        color: rgb(250, 212, 142);
     }
 
     #cv1 img {
@@ -485,7 +486,9 @@ footer a{
         justify-content: center;
         flex-wrap: wrap;
     }
-
+    #contact p{ 
+        padding-bottom: 50px;
+    }
     .form {
         min-width: 400px;
         flex: 5;
