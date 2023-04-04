@@ -9,8 +9,10 @@ body {
     background-color: #010409;
     color: whitesmoke;
 }
-
-h2{ font-size: 2.7em;}
+h2{ 
+    color: rgb(250, 212, 142);
+    font-size: 2.7em;}
+h3 { color: rgb(250, 212, 142);}
 p{ font-size: 1.25em;}
 ul{ list-style: none;}
 a{ text-decoration: none;}
@@ -25,15 +27,15 @@ button {
     border: 1px solid #0005;
     box-shadow: 2px 2px 10px rgba(26, 25, 25, 0.333);
     color: white;
-    background-color: #21262d;
+    background-color: #238636;
 }
 
 button:hover {
-    background-color: #303742;
+    background-color: #186327;
     cursor: pointer;
 }
 
-button:active{ background-color: #3c5070 ;}
+button:active{ background-color: #265c31 ;}
 
 
 .container {
@@ -79,9 +81,7 @@ header a {
     flex-direction: column;
 }
 
-header a:hover {
-    color: rgb(170, 168, 168);
-}
+header a:hover {color: rgb(170, 168, 168);}
 
 #introduction {
     display: flex;
@@ -100,10 +100,7 @@ header a:hover {
 
 #introduction img { display: none;}
 
-#introduction { 
-    background-color: #0d1117;
-    
-}
+#introduction { background-color: #0d1117;}
 
 #introduction p {
     font-size: 2.7rem;
@@ -129,7 +126,6 @@ header a:hover {
 
 #information h2 {
     margin-top: 0px;
-    color: rgb(206, 186, 150);
 }
 
 .yo{
@@ -152,6 +148,7 @@ header a:hover {
 .box {
     margin: 20px;
     background-color: #30363d ;
+    color: #e4e8ec;
     border-radius: 6px;
     border: 2px solid #4c5157;
 }
@@ -181,31 +178,26 @@ header a:hover {
 #skills h2 {
     display: flex;
     justify-content: center;
-    color: rgb(250, 212, 142);
     font-weight: bold;
 }
 
 #skills h3 {
     font-weight: bold;
-    color: rgb(206, 186, 150);
 }
 
 #skills .box {
     padding: 8px;
-    color: aquamarine;
     font-weight: bold;
 }
 
 #cv1 h2{
     display: flex;
     justify-content: center;
-    color: rgb(250, 212, 142);
     font-weight: bold;
 }
 
 #cv1 .box {
     padding: 8px;
-    color: aqua;
     font-weight: bold;
 }
 
@@ -230,7 +222,6 @@ header a:hover {
 #contact h2 { 
     display: flex;
     justify-content: center;
-    color: rgb(250, 212, 142);
     font-weight: bold;
 }
 
@@ -239,7 +230,6 @@ header a:hover {
 #contact p {
     display: flex;
     justify-content: center;
-    color: aquamarine;
     font-weight: bold;
     margin: auto;
     font-size: 0.9em;
@@ -247,6 +237,8 @@ header a:hover {
 }
 
 #contact .box { padding: 5px;}
+
+#contact p { color: #e4e8ec;}
 
 #contact form {
     display: flex;
@@ -264,7 +256,7 @@ header a:hover {
     padding: 5px;
     margin: 5px;
     border: none;
-    border-bottom: 3px solid #2da;
+    border-bottom: 3px solid rgb(34, 68, 221);
     background: transparent;
     color: #fff; 
 }
@@ -290,7 +282,7 @@ header a:hover {
 }
 
 #contact input:focus{
-    background: linear-gradient(to bottom, transparent, #111);
+    background: linear-gradient(to bottom, transparent, #27272794);
     outline: none;
     border-bottom: 3px solid #5d9;
 }
@@ -308,26 +300,24 @@ header a:hover {
 .form-img { display: none;}
 
 #contact textarea:focus{
-    background: linear-gradient(to bottom, transparent, #111);
+    background: linear-gradient(to bottom, transparent, #13131394);
     outline: none;
     border-bottom: 3px solid #5d9;
 }
 
 #contact input[type="submit"]{
-    background: #3bd;
+    background-color: #238636;
     border-bottom: none;
     padding: 12px;
 }
 
 #contact input[type="submit"]:hover{
-    background: #18b;
+    background-color: #186327;
     border-bottom: none;
     padding: 12px;
 }
 
-#contact input[type="submit"]:focus{ background: #3db;}
-
-#contact input[type="submit"]:active{ background: linear-gradient(to bottom, #3bd, #18b);}
+#contact input[type="submit"]:active{ background-color: #265c31}
 
 footer {
     display: flex;
@@ -521,6 +511,7 @@ footer a{
     #contact .inputbutton {
         margin: auto;
         width: 220px;
+        padding-bottom: 20px;
     }
 
     .inputbutton:hover{ cursor: pointer;}
@@ -530,6 +521,10 @@ footer a{
       padding: 10px;
       display: flex;
     }
+
+    #contact p{ 
+        color: rgb(250, 212, 142);
+        padding-bottom: 50px;}
 
     .form-img img {
         width: 70%;
